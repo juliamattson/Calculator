@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Miniräknare</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="main">
+        <input type="button" value="1" onclick="chooseNumber(1)" class="numbers">
+        <input type="button" value="2" onclick="chooseNumber(2)" class="numbers">
+        <input type="button" value="3" onclick="chooseNumber(3)" class="numbers">
+        <input type="button" value="4" onclick="chooseNumber(4)" class="numbers">
+        <input type="button" value="5" onclick="chooseNumber(5)" class="numbers">
+        <input type="button" value="6" onclick="chooseNumber(6)" class="numbers">
+        <input type="button" value="7" onclick="chooseNumber(7)" class="numbers">
+        <input type="button" value="8" onclick="chooseNumber(8)" class="numbers">
+        <input type="button" value="9" onclick="chooseNumber(9)" class="numbers">       
+        <input type="button" onclick="chooseMethod('+')" value="+" class="method">
+        <input type="button" onclick="chooseMethod('-')" value="-" class="method">
+        <input type="button" onclick="chooseMethod('*')" value="*" class="method">
+        <input type="button" onclick="chooseMethod('/')" value="/" class="method">
+        <input type="button" onclick="empty()" value="CE" id="empty">
+        <input type="button" onclick="solve()" value="=" id="result">
+        <input id="input" type="text" readonly="readonly" placeholder="0" >
+        <input id="answer" type="text" readonly="readonly" placeholder="Resultat">
+        </div>
+    <script src="./script.js"></script>
+</body>
+</html>

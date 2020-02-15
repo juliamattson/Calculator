@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px;
+    margin: 5px;    
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 25%;
+    height: 100px;
+    background-color: cornflowerblue;
+    color: white;
+    margin: 5px;
+    font-size: 40px;
+}
+
+.numbers:hover {
+    background-color: rgb(64, 114, 207);
+    cursor: pointer;
+}
+
+.method {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 20px;
+    width: 73px;
+    height: 40px;
+}
+
+.method:hover {
+    background-color: rgb(64, 114, 207);
+    cursor: pointer;
+}
+
+#result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 30px;
+    margin-top: 3px;
+    font-size: 25px;
+}
+
+#result:hover {
+    background-color: rgb(55, 197, 55);
+    cursor: pointer;
+}
+
+#empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 30px;
+    margin-top: 3px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+#empty:hover {
+    background-color: rgb(247, 83, 83);
+    cursor: pointer;
+}
+
+#input, #answer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(206, 219, 245);
+    font-size: 15px;
+    border: 2px solid cornflowerblue;
+    border-radius: 7px;
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
